@@ -111,7 +111,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 4296180065af5584e971266f789eaa8e, type: 2}
 --- !u!1 &86471648
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,6 +146,10 @@ MonoBehaviour:
   - {fileID: 8175033777175258342, guid: 6250098711083c442a29f6e1d1ff364e, type: 3}
   - {fileID: 1081348174782620182, guid: ac20cd03f52a5574e90075365cd232ee, type: 3}
   - {fileID: 5539420324887205741, guid: b6dd367c96df2ce4888329deb50ae1d6, type: 3}
+  xstreets: {fileID: 970351137980990279, guid: 7e3ed3e78bea30844a84d928305826ec, type: 3}
+  zstreets: {fileID: 329861920962940654, guid: 00b95460177b09d4d933a01b811aab8b, type: 3}
+  crossroad: {fileID: 5538430066166994973, guid: d061f949f4b4b0b4cbcd3580f7c32e3e,
+    type: 3}
   mapWidth: 20
   mapHeight: 20
 --- !u!4 &86471650
@@ -248,7 +252,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &181204803
 MeshCollider:
@@ -478,11 +482,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1365075910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c804108ac553dbd40a742b6529a04989, type: 3}
+  m_Script: {fileID: 11500000, guid: f43e5907ffd45db41825f8e69e1221ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  rotSpeed: 180
+  mainCamera: {fileID: 0}
+  speed: 50
+  allowPitch: 1
 --- !u!136 &1365075912
 CapsuleCollider:
   m_ObjectHideFlags: 0
