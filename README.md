@@ -14,3 +14,6 @@ My project creates a finite procedurally generated city. It works by creating a 
 
 ## What I'm most proud of
 The aspect of the project im most proud of is how natural the variety of the buildings and where theyre placed looks. Perlin noise and altering the chance of a building spawning depending on its size creates a city that seems to have smaller residential zones and larger skyscrapers grouped together.
+
+### Youtube video
+https://www.youtube.com/watch?v=Z5XBqr7eE1g&feature=youtu.be
