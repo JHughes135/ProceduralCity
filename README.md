@@ -19,5 +19,5 @@ The aspect of the project im most proud of is how natural the variety of the bui
 I used a youtube tutorial on procedural generation to help get me started.
 it can be found here: https://www.youtube.com/watch?v=xkuniXI3SEE&t=11s
 
-### Youtube video
+### Youtube Demo
 https://www.youtube.com/watch?v=Z5XBqr7eE1g&feature=youtu.be
